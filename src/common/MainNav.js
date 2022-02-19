@@ -9,14 +9,14 @@ export default class MainNav extends Component {
     constructor(props) {
         super(props)
         this.state = {
-             [isOpen, setIsOpen] : React.useState(false)
+            isOpen: false
         }
     }
 
     
     logIn(){
         return (
-            <Modal show={true}>
+            <Modal show={false}>
               <Modal.Header>Hi</Modal.Header>
               <Modal.Body>asdfasdf</Modal.Body>
               <Modal.Footer>This is the footer</Modal.Footer>
@@ -55,9 +55,9 @@ export default class MainNav extends Component {
                                     <Link className="nav-link" to="/news" >News</Link>
                                 </li>
                             </ul>
-                            <form class="d-flex" id="SingForm">
-                                <Link class="btn btn-outline-success" to="/contractor_or_freelancer">Registrarse</Link>
-                                <a class="btn btn-outline-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Ingresar</a>
+                            <form className="d-flex" id="SingForm">
+                                <Link className="btn btn-outline-success" to="/contractor_or_freelancer">Registrarse</Link>
+                                <a className="btn btn-outline-success" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Ingresar</a>
                             </form>
                         </div>
                     </div>
