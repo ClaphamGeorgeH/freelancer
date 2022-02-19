@@ -1,0 +1,77 @@
+#Service header{
+    
+    background: 
+    linear-gradient(
+        to right,
+      rgba(0, 247, 255, 0.45), 
+      rgba(163, 97, 194, 0.45),
+      rgba(209, 54, 106, 0.45)
+    ),
+    /* bottom, image */
+    url('../../assets/background/bg-image-1.jpg');
+}
+
+#Service section{
+  background-image:url('../../assets/background/bg-image-18.jpg'); 
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#Service h1{
+  color: rgb(255, 255, 255);
+}
+
+#Service p{
+  color: rgb(58, 58, 58);
+}
+
+#Service .container-fluid{
+  padding-top: 115px;
+  padding-bottom: 115px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+#Service #Suppliers{
+  background-color: rgb(240, 240, 240);
+}
+
+#Service p{
+  text-align: center;
+}
+
+
+#Service #text1{
+  font-size: 15px;
+background: linear-gradient(  to right,
+  rgb(20, 94, 233), 
+  rgba(163, 97, 194, 1),
+  rgb(248, 4, 4));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+#Service #text2{
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+#Service #text3{
+  font-size: 20px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+
+
+#Service .botonTabla{
+  font-size: 60px;
+  margin: 15px;
+}

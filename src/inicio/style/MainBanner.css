@@ -1,0 +1,14 @@
+#carouselExampleCaptions h3 {
+    text-align: left;
+    font-size: 180px;
+}
+
+#carouselExampleCaptions p{
+    text-align: left;
+    font-size: 30px;
+}
+
+#carousel-inner button{
+    text-align: left;
+    font-size: 30px;
+}

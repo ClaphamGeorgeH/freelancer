@@ -1,0 +1,32 @@
+.container-fluid{
+    padding: 0px;
+}
+
+#NewsTittle{
+    margin: 0px 30px 0px 30px;
+}
+
+#NewsTittle h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+.carousel-caption h1{
+    font-size: 50px;
+}
+
+.carousel-caption p{
+    
+}
+
+#displayNewsBanner{
+
+}
+
+#diplayNewsCards{
+    margin: 0px;
+}
+
+#diplayNewsCards h5{
+    font-size: 20px;
+}

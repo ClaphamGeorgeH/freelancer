@@ -1,0 +1,17 @@
+#tittle p{
+    font-size: 100px;
+}
+
+.card-title{
+    font-size: 70px;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+#UserType .card{
+    margin: 25px;
+}
+
+.card-body{
+    text-align: center;
+}

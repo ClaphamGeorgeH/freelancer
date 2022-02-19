@@ -1,0 +1,10 @@
+#About .direccionTabla {
+    font-size: 60px;
+}
+
+#About h1{
+    background:var(--background--gradient1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+    font-size: 45px;
+}
