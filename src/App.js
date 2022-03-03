@@ -8,9 +8,9 @@ import Brands from './inicio/Brands';
 function App() {
   return (
     <section>
-    <MainBanner></MainBanner>
-    <Team></Team>
-    <Brands></Brands>
+      <MainBanner></MainBanner>
+      <Team></Team>
+      <Brands></Brands>
     </section>
   );
 }
