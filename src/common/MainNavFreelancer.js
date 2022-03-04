@@ -35,6 +35,7 @@ export default class MainNavFreelancer extends Component {
         })
     }
     
+    
     render(){
         return (
             <section id="MainNavbar">

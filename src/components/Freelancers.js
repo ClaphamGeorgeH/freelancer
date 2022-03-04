@@ -18,10 +18,8 @@ export default class Freelancers extends Component {
 
     componentDidMount() {
     const rutaServicio = "https://servicios.campus.pe/servicioproveedores.php";
-        fetch(rutaServicio)
-            .then(
-                res => res.json()
-            )
+            fetch(rutaServicio)
+            .then(res => res.json())
             .then(
                 (result) => {
                     console.log(result);
@@ -102,10 +100,10 @@ export default class Freelancers extends Component {
                         <br/>
                         <div className="row">
                             <div className='col'>
-                                <div class="input-group input-group-lg">
-                                    <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Write the supplier name..." aria-label="Recipient's username" aria-describedby="button-addon2" id="SupplierInput"/>
-                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2" >Find</button>
+                                <div className="input-group input-group-lg">
+                                    <div className="input-group mb-3">
+                                    <input type="text" className="form-control" placeholder="Write the supplier name..." aria-label="Recipient's username" aria-describedby="button-addon2" id="SupplierInput"/>
+                                    <button className="btn btn-outline-secondary" type="button" id="button-addon2" >Find</button>
                                     </div>
                                 </div>
                             </div>
@@ -121,8 +119,8 @@ export default class Freelancers extends Component {
                                     <div className="card-body">
                                         <h2 className="card-title">{this.state.freelancerSeleccionado.nombrecontacto}</h2>
                                         <p className="card-text">
-                                            <h3>{this.state.freelancerSeleccionado.nombreempresa}</h3>
-                                            <p>{this.state.freelancerSeleccionado.direccion}</p>
+                                            {/*<h3>{this.state.freelancerSeleccionado.nombreempresa}</h3>*/}
+                                            {/*<p>{this.state.freelancerSeleccionado.direccion}</p>*/}
                                         </p>
                                     </div>
                             </div>

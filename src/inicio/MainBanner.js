@@ -16,8 +16,8 @@ function MainBanner(props) {
                     <div className="carousel-caption d-none d-md-block">
                         <h3>Business.</h3>
                         <p>Contrary to popular belierf, Lorem Ipsum is no a simply randomm text...</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button class="btn btn-danger me-md-2" type="button">Contact us</button>
+                        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button className="btn btn-danger me-md-2" type="button">Contact us</button>
                         </div>
                     </div>
                 </div>
@@ -26,8 +26,8 @@ function MainBanner(props) {
                     <div className="carousel-caption d-none d-md-block">
                     <h3>Corporate.</h3>
                         <p>There are many variations of passages but the majority have suffered alteration.There are many variations of passages but the majority have suffered alteration.</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button class="btn btn-danger me-md-2" type="button">Contact us</button>
+                        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button className="btn btn-danger me-md-2" type="button">Contact us</button>
                         </div>
                     </div>
                 </div>
