@@ -31,7 +31,7 @@ export default class ContractorOrFreelancer extends Component  {
                         <Card>
                             <Card.Img variant="top" src={ContractorImg}/>
                             <Card.Title id="card-body">
-                                <Link to='freelancer_mode' className="card-title">Contratista</Link>
+                                <p className="card-title">Contratista</p>
                             </Card.Title>
                         </Card>
                     </div>

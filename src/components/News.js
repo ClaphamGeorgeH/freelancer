@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import banner2 from '../assets/banner/bg-image-31.jpg';
 import banner1 from '../assets/banner/bg-image-32.jpg';
+import MainFooter from '../common/MainFooter';
+import MainNavFreelancer from '../common/MainNavFreelancer';
 import './style/News.css';
 
 export default class News extends Component {
@@ -136,6 +138,7 @@ export default class News extends Component {
         return (
             
             <section id="NewsConstainer">
+                <MainNavFreelancer></MainNavFreelancer>
                 <div className='container'>
                     <div className='row' id="NewsTittle">
                         <div className='col'>
@@ -156,6 +159,7 @@ export default class News extends Component {
                     <hr></hr>
                     {diplayNewsCards}
                 </div>
+                <MainFooter></MainFooter>
             </section>
         )
   }

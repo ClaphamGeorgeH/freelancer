@@ -7,20 +7,20 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import FreelancerMode from './FreelancerMode';
-import ContractorOrFreelancer from './components/ContractorOrFreelancer';
 import Freelancers from './components/Freelancers';
-import About from './components/About';
 import FreelancerRegistration from './components/FreelancerRegistration';
+import News from './components/News.js';
+
 
 
 render(
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<ContractorOrFreelancer/>}/>
-        <Route path='freelancer_mode' element={<FreelancerMode/>}/>
-        <Route path='freelancer_mode/freelancers' element={<Freelancers></Freelancers>}/>
-        <Route path='freelancer_mode/registration' element={<FreelancerRegistration/>}/>
-        <Route path='About'element={<About></About>}/>
+        <Route path='/' element={<FreelancerMode/>}/>
+        <Route path='freelancers' element={<Freelancers></Freelancers>}/>
+        <Route path='registration' element={<FreelancerRegistration/>}/>
+        <Route path='news' element={<News/>}/>
+        <Route path='registration' element={<FreelancerRegistration/>}/>
       </Routes>
     </BrowserRouter>,   
     document.getElementById('root')

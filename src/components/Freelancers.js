@@ -18,7 +18,7 @@ export default class Freelancers extends Component {
 
     componentDidMount() {
     const rutaServicio = "https://servicios.campus.pe/servicioproveedores.php";
-            fetch(rutaServicio)
+            fetch(rutaServicio,)
             .then(res => res.json())
             .then(
                 (result) => {
